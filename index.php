@@ -11,9 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <form action="procesar.php" method="post">
+            <label><b>Numero1:</b></label>
+            <input type="text" name="num1" id="n1"><br>
             
-            <input type="text" name="num1" id="n1">
-            <input type="text" name="num2" id="n2">
+            <label><b>Numero2:</b></label>
+            <input type="text" name="num2" id="n2"><br>
             
             <input type="submit" value="enviar">
         </form>
