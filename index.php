@@ -10,8 +10,12 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        "hola";
-        ?>
+        <form action="procesar.php" method="post">
+            
+            <input type="text" name="num1" id="n1">
+            <input type="text" name="num2" id="n2">
+            
+            <input type="submit" value="enviar">
+        </form>
     </body>
 </html>
